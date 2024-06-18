@@ -1,0 +1,113 @@
+# Ignore Visual Studio temporary files, build results, and
+#  folder-based project outputs
+
+# User-specific files
+*.rsuser
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Auto-generated files (Mono Auto Generated)
+.idea
+.vscode
+.vscode/
+.vscode/*
+.vscode/*/
+.idea/
+.idea/*
+.idea/*/
+*.vcxproj.user
+.vscode/settings.json
+
+# User-specific files (Mono Auto Generated)
+*.rsuser
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto-generated files
+.mono
+
+# VS Code (Mono Auto Generated)
+.history/
+*.code-workspace
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.rsuser
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Mono Auto-generated files
+.mono
+
+# VS Code (Mono Auto Generated)
+.history/
+*.code-workspace
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.rsuser
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto-generated files
+.mono
+
+# VS Code (Mono Auto Generated)
+.history/
+*.code-workspace
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio cache files
+.vscode
+.vscode/*
+.vscode/
+.vscode/*/
+.idea
+.idea/*
+.idea/
+.idea/*/
+
+# Ignore .NET build outputs
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+build/
+bld/
+Bin/
+Obj/
+
+# Ignore test results
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og*.*
+
+# Ignore web.config and app.config
+app.config
+web.config
+
+# Ignore publish output
+publish/
