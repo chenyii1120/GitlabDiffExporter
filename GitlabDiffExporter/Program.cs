@@ -183,6 +183,13 @@ class Program
 
         string responseContent = await client.GetDiffResponse(projId, oldCommitHash, newCommitHash);
         GenerateDiffReport(responseContent);
+        Pause();
+    }
+
+    public static void Pause()
+    {
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 }
 
@@ -329,12 +336,14 @@ public class Settings
             string jsonContent = JsonConvert.SerializeObject(defaultSettings, Formatting.Indented);
             File.WriteAllText(filePath, jsonContent);
             Console.WriteLine("You need to setup the settings.json first, you can find it in the folder.");
+            Program.Pause();
             Environment.Exit(0);
         }
         catch (Exception ex)
         {
             // 捕獲其他異常
             Console.WriteLine($"讀取 settings.json 文件時發生錯誤：{ex.Message}");
+            Program.Pause();
             Environment.Exit(1);
         }
         return null;
